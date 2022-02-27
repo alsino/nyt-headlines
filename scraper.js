@@ -25,9 +25,9 @@ async function getWebsiteContent(url) {
     const body = $('body');
     // const content = body.find('.story-wrapper').find('>a').find('>h3').text()
 
-    // const content = body.find('.story-wrapper').find('a').find('h3').text()
+    const content = body.find('span').text()
 
-     const content = body.find('.story-wrapper').find('a').find('h3').find('.balancedHeadline').text()
+    //  const content = body.find('.story-wrapper').find('a').find('h3').find('.balancedHeadline').text()
 
   
 
